@@ -27,3 +27,23 @@ let myString = "freeCodeCamp";
 let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
 ```
+
+[5.Match Literal Strings](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/extract-matches)  
+- ดึงค่าที่แมทช์ออกมาใช้ต่อโดย .match()
+- ใช้สลับกันกับ .test()
+- .test() ใช้ regEx.test(string)
+- .match() ใช้ string.match(regEx)
+
+```js
+'string'.match(/regex/);
+/regex/.test('string');
+```
+
+```js
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
+```
+```js
+
+```
